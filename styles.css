@@ -214,7 +214,7 @@ body {
 }
 
 .hot-deal-image img {
-  max-height: 900px;
+  max-height: 600px;
   object-fit: contain;
   filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
 }
@@ -224,7 +224,7 @@ body {
   .hot-deal {
     flex-direction: column;
     text-align: center;
-    height: 85vh; /* Full viewport height */
+    height: 100%; /* Full viewport height */
   }
 
   .hot-deal-content {
