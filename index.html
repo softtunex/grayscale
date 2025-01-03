@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/drink-taste-logo.png" type="image/png" />
+    <meta
+      name="title"
+      content="Drink and Taste - Premium Bartending Services"
+    />
+    <meta
+      name="description"
+      content="Drinks & Taste is one of the fast-growing bartending companies. We make your event stress-free with our top-notch drink services in Lagos and Nigeria as a whole."
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -14,11 +23,13 @@
     <header class="navbar">
       <div class="container">
         <div class="logo-container">
-          <img
-            src="assets/drink-taste-logo.png"
-            alt="Drink Taste Logo"
-            class="logo"
-          />
+          <a href="#home">
+            <img
+              src="assets/drink-taste-logo.png"
+              alt="Drink Taste Logo"
+              class="logo"
+            />
+          </a>
         </div>
         <button class="hamburger" id="hamburger">
           <span class="bar"></span>
@@ -44,11 +55,14 @@
               class="icon"
               ><i class="fab fa-facebook"></i
             ></a>
+            <a href="https://wa.me/+2348169961966" target="_blank" class="icon"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
           </div>
         </nav>
       </div>
     </header>
-    <section class="hot-deal">
+    <section id="home" class="hot-deal">
       <div class="hot-deal-content">
         <h3>WHO ARE<span> WE?</span></h3>
         <h1>Drink & Taste</h1>
@@ -57,7 +71,7 @@
           your event stress free with our topnotch drinks services in Lagos and
           Nigeria as a whole.
         </p>
-        <a href="#deal" class="btn">CHECK US OUT</a>
+        <a href="#information-section" class="btn">CHECK US OUT</a>
       </div>
       <!-- <div class="hot-deal-image">
         <img src="assets/amarula-img.png" alt="Amarula" />
@@ -169,7 +183,7 @@
       <div id="contact-section">
         <div class="contact-icons">
           <div class="icon">
-            <a href="tel:+2348169961966"><i class="fa fa-phone"></i></a>
+            <a href="tel:+2348120605102"><i class="fa fa-phone"></i></a>
             <p>Call us</p>
           </div>
           <div class="icon">
@@ -187,7 +201,7 @@
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31715.410776836215!2d3.3252372116891983!3d6.524379998930228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b079b8c1217%3A0x5c00452b7e58da02!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1672442924365!5m2!1sen!2sus"
             width="100%"
-            height="200"
+            height="400"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
@@ -219,14 +233,14 @@
           <h4>Contact</h4>
           <ul>
             <li>
-              <a href="tel:+2348169961966"
-                ><i class="fa fa-phone"></i> +2348169961966</a
-              >
-            </li>
-            <li>
               <a href="tel:+2348120605102"
                 ><i class="fa fa-phone"></i> +2348120605102</a
               >
+            </li>
+            <li>
+              <a href="tel:+2348169961966"
+                ><i class="fab fa-whatsapp"></i> +2348169961966
+              </a>
             </li>
             <li>
               <a href="mailto:Drinksandtaste@gmail.com"
@@ -238,7 +252,7 @@
         <div class="footer-section">
           <h4>Social Media</h4>
           <ul>
-            <li>
+            <li style="display: flex; justify-content: center; gap: 1rem">
               <a
                 href="https://www.instagram.com/drinks_taste/"
                 target="_blank"
@@ -251,12 +265,27 @@
                 class="icon"
                 ><i class="fab fa-facebook"></i
               ></a>
+              <a
+                href="https://wa.me/+2348169961966"
+                target="_blank"
+                class="icon"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
             </li>
           </ul>
         </div>
       </div>
       <p>&copy; 2024 Drink Taste. All rights reserved.</p>
     </footer>
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/+2348169961966"
+      target="_blank"
+      class="whatsapp-float"
+      title="Chat with us on WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
 
     <script>
       const hamburger = document.getElementById("hamburger");
